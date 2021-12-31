@@ -2,6 +2,20 @@
 'use strict';
 
 
-console.log("Hello, World!");
+var v0 = {
+  x: 3
+};
 
-/*  Not a pure module */
+var v1 = {
+  x: 3
+};
+
+var v2 = {
+  x: 3,
+  y: 4
+};
+
+exports.v0 = v0;
+exports.v1 = v1;
+exports.v2 = v2;
+/* No side effect */
