@@ -12,6 +12,6 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "rescript": "rescript-lang/rescript-compiler"
+    "rescript": "^10.0.0-m1"
   }
 }
